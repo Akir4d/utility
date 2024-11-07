@@ -37,7 +37,7 @@ chmod +x ~/.xsessionrc
 # Copiare .xsessionrc in /etc/skel per renderlo disponibile a nuovi utenti
 sudo cp -a ~/.xsessionrc /etc/skel/
 
-echo "Installazione completata. Lo script di autoridimensionamento è configurato e pronto per l'uso."
+echo "Installazione completata. Sto riavviando per completare."
 
 sleep 5
 rm $0

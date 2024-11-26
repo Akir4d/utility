@@ -1,0 +1,1 @@
+a=0; for l in {a..l}; do let a=a+1; n=$(printf "%02d" $a); steghide embed -cf ${n}.jpg -ef file_a${l} -p ""; done
